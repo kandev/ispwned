@@ -1,7 +1,7 @@
 # Password pwn checker #
-Simple bash script which uses https://haveibeenpwned.com database of leaked password to check if your password has been ever used by somebody and leaked.
+Simple bash script which uses https://haveibeenpwned.com database of leaked passwords to check if your password has been ever used by somebody and leaked.
 
-Leaking the password means the password has been gathered during data breach and is now listed in the password database files, which are used for dictionary databases for cracking accounts.
+Leaking the password means the password has been gathered during data breach and is now listed in the password database files, which are used for dictionary attacs.
 
 * The tool does not share your password with the API, just the first 5 characters of the SHA1 sum.
 * The password is not endered as argument in the shel to avoid storing it in command history database.
